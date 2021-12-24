@@ -4,19 +4,19 @@
 
 ### Importando a biblioteca
 
-    1 - import json
+    1 -> import json
 
 ### Algum Json
-    2 - x = '{"nome": "Gabriel", "idade":20, "cidade": "Aracaju"}'
+    2 -> x = '{"nome": "Gabriel", "idade":20, "cidade": "Aracaju"}'
 
-parse x:
+### Analisando x:
 
-    3 - y = json.loads(x)
+    3 -> y = json.loads(x)
 
 ### O resultado é um dicionario python
-    4 - print(y) -> Mostra um dicionario python
+    4 -> print(y) -> Mostra um dicionario python
     
-    5 - print(y['idade']) -> Mostra um valor do dicionario Python
+    5 -> print(y['idade']) -> Mostra um valor do dicionario Python
 
 #
 
@@ -24,20 +24,20 @@ parse x:
 
 ### Importando a biblioteca
 
-    1 - import json
+    1 -> import json
 
 ### Um dicionario Python (dict):
-    2 - x = {
+    2 -> x = {
     "nome": "Gabriel",
     "age": 20,
     "city": "Aracaju"
     }
 
 ### Convertendo em Json
-    3 - y = json.dumps(x, indent=4)
+    3 -> y = json.dumps(x, indent=4)
 
 ### O resultado é uma string Json
-    4 - print(y)
+    4 -> print(y)
 
 #
 
@@ -47,14 +47,14 @@ parse x:
 
 #
 
-    1 - print('Lendo um Json') 
+    1 -> print('Lendo um Json') 
 
-    2 - with open('test.json', 'r') as f:
+    2 -> with open('test.json', 'r') as f:
             json_object = json.loads(f.read())
 
-    4 - print(json_object)
+    4 -> print(json_object)
 
-    5 - print(json_object['city'])
+    5 -> print(json_object['city'])
 
 #
 
@@ -62,11 +62,11 @@ parse x:
 
 #
 
-    1 - json_string = json.dumps(x,indent=4)
+    1 -> json_string = json.dumps(x,indent=4)
  
-    2 -  with open('test.json', 'w') as f:
+    2 ->  with open('test.json', 'w') as f:
             f.write(json_string)
 
-    3 - print(json_string)
+    3 -> print(json_string)
 
-    4 - print(json_string['city'])
+    4 -> print(json_string['city'])
