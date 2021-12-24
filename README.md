@@ -2,6 +2,8 @@
 
 ## Convertendo Json para Python
 
+### Importando a biblioteca
+
     1 - import json
 
 ### Algum Json
@@ -19,6 +21,8 @@ parse x:
 #
 
 ## Convertendo de Python para Json
+
+### Importando a biblioteca
 
     1 - import json
 
