@@ -1,6 +1,6 @@
 {
     "nome": "Gabriel",
-    "age": 20,
-    "city": "Aracaju",
-    "hobby": "Programming"
+    "idade": 20,
+    "cidade": "Aracaju",
+    "hobby": "Programar"
 }
