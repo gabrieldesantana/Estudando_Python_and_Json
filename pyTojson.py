@@ -3,9 +3,9 @@ import json
 # Um dicionario Python (dict):
 x = {
   "nome": "Gabriel",
-  "age": 20,
-  "city": "Aracaju",
-  "hobby": "Programming"
+  "idade": 20,
+  "cidade": "Aracaju",
+  "hobby": "Programar"
 }
 
 # Convertendo em Json
@@ -27,4 +27,4 @@ with open('test.json', 'w') as f:
     f.write(json_string)
 
 print(json_string)
-print(json_string['city'])
+print(json_string['cidade'])
